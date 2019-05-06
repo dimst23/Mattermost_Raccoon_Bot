@@ -1,0 +1,15 @@
+Raccooner:
+  mattermost:
+    general:
+      url: "mattermost.server.url"
+      port: 443
+      access_token: "you_access_token"
+      excluded_channels:
+        - "list_of_channels"
+        - "list"
+    bot_specific:
+      hook_url: "mattermost_hook_url"
+      channel: "bot_post_channel"
+      username: "bot_username"
+      icon: "icon_url"
+      utc_update_time: 22.0
